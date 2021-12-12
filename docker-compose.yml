@@ -1,0 +1,27 @@
+version: '3.9'
+
+services:
+  client:
+    container_name: _client
+    image: client
+    build:
+      context: ./DockerComposeClient/
+      dockerfile: Dockerfile
+    ports:
+      - "2011:2001"
+    networks:
+      - springbootnet
+  server:
+    container_name: _server
+    image: server
+    build:
+      context: ./DockerComposeServer/
+      dockerfile: Dockerfile
+    ports:
+      - "2012:2002"
+    networks:
+      - springbootnet
+networks:
+  springbootnet:
+    name: springbootnet
+    driver: bridge

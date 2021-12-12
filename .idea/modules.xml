@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DockerCompose_Client/DockerComposeClient.iml" filepath="$PROJECT_DIR$/DockerCompose_Client/DockerComposeClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DockerCompose_Server/DockerComposeServer.iml" filepath="$PROJECT_DIR$/DockerCompose_Server/DockerComposeServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/DockerCompose_ClientServer-main.iml" filepath="$PROJECT_DIR$/.idea/DockerCompose_ClientServer-main.iml" />
+    </modules>
+  </component>
+</project>
